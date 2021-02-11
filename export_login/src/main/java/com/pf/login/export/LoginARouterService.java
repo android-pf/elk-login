@@ -11,7 +11,7 @@ import com.pf.login.export.service.ICartService;
  *
  * @author hufeiyang
  */
-public class LoginServiceUtil {
+public class LoginARouterService {
 
     /**
      * 跳转到 xx页面

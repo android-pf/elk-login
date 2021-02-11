@@ -12,6 +12,7 @@ public interface LoginRouter {
      * 购物车页面
      */
     String PATH_LOGIN_ACTIVITY = "/login/LoginActivity";
+    String PATH_REGISTER_ACTIVITY = "/login/LoginActivity";
 
     /**
      * fragment

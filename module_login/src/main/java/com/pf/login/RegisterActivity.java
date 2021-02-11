@@ -10,12 +10,12 @@ import com.alibaba.android.arouter.launcher.ARouter;
 import com.pf.login.export.router.LoginRouter;
 
 @Route(path = LoginRouter.PATH_LOGIN_ACTIVITY)
-public class LoginActivity extends AppCompatActivity {
+public class RegisterActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
+        setContentView(R.layout.activity_register);
 
 //        //跳转页面1
 //        findViewById(R.id.tv_page_name1).setOnClickListener(new View.OnClickListener() {
@@ -40,7 +40,8 @@ public class LoginActivity extends AppCompatActivity {
 //                        .withString("key1", "param3")//携带参数1
 //                        .withString("key2", "param4")//携带参数2
 //                        .navigation();
-//                CartServiceUtil.navigateCartPage("param1", "param1");
+//
+////                CartServiceUtil.navigateCartPage("param1", "param1");
 //            }
 //        });
     }
